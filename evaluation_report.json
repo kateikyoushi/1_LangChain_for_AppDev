@@ -1,0 +1,48 @@
+{
+  "model": "llama-3.1-8b-instant",
+  "total_examples": 7,
+  "predictions": [
+    {
+      "question": "Do the Cozy Comfort Pullover Set have side pockets?",
+      "expected": "Yes",
+      "predicted": "Yes, the Cozy Comfort Pullover Set has side pockets. This information can be found in the \"Additional Features\" section of the document with metadata {'source': 'OutdoorClothingCatalog_1000.csv', 'row': 10}.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "What collection is the Ultra-Lofty 850 Stretch Down Hooded Jacket from?",
+      "expected": "The DownTek collection",
+      "predicted": "The Ultra-Lofty 850 Stretch Down Hooded Jacket is from the DownTek collection.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "What material is used for the innersole of the Women's Campside Oxfords?",
+      "expected": "EVA (with Cleansport NXT antimicrobial odor control)",
+      "predicted": "The innersole of the Women's Campside Oxfords is made of Comfortable EVA (Ethylene-Vinyl Acetate) with Cleansport NXT antimicrobial odor control.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "Where is the Recycled Waterhog Dog Mat made?",
+      "expected": "Made in the USA.",
+      "predicted": "The Recycled Waterhog Dog Mat is made right here in the USA.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "What is the UPF rating of the swimsuit fabric?",
+      "expected": "UPF 50+",
+      "predicted": "The UPF rating of the swimsuit fabric is 50+. This is mentioned in the descriptions of the following swimsuits:\n\n1. Girls' Aquatic Adventure Swimsuit, One-piece, Long Sleeve, Colorblock\n2. Beach Babe Reversible Swimsuit\n3. OceanWaves Swimwear Tank with Soft Cups\n4. Infant and Toddler Girls' Coastal Chill Swimsuit, Two-Piece",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "What is the UPF rating of the swimwear?",
+      "expected": "UPF 50+",
+      "predicted": "The UPF rating of the swimwear is 50+. This is mentioned in the descriptions of the following swimsuits:\n\n1. Girls' Aquatic Adventure Swimsuit, One-piece, Long Sleeve, Colorblock\n2. OceanWaves Swimwear Tank with Soft Cups\n3. SeaSport Swimwear, Skirted Bottom\n4. AquaSport Swimwear, Bottom",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "What is the primary material used in the EcoFlex 3L Storm Pants?",
+      "expected": "100% nylon.",
+      "predicted": "The primary material used in the EcoFlex 3L Storm Pants is 100% nylon, exclusive of trim.",
+      "grade": "CORRECT"
+    }
+  ]
+}
